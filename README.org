@@ -1,0 +1,18 @@
+# -*- mode: org; -*-
+#+TITLE: README
+#+DESCRIPTION:
+#+KEYWORDS:
+#+AUTHOR:
+#+email:
+#+INFOJS_OPT:
+#+STARTUP:  content
+
+#+DATE: CREATED: <Tue Mar 07 19:11:40 MSK 2023>
+# Time-stamp: <Последнее обновление -- Tuesday March 7 19:17:41 MSK 2023>
+
+Перехожу ко второму уроку от [[https://www.youtube.com/@WebCademy][«ВебКадеми - веб-разработка, программирование и IT»]].
+
+Ссылка на видеоурок [[https://www.youtube.com/watch?v=Iz1NvqG7wTc][Сайт портфолио на React JS урок для новичков. Базовый вводный курс в React для
+начинающих]].
+
+Работать буду со своим предыдущим проектом [[https://github.com/abunbux/freelanceportfolio][abunbux/freelanceportfolio]].

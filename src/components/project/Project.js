@@ -5,7 +5,9 @@ import project_04 from "./../../img/projects/project_04.jpg";
 import project_05 from "./../../img/projects/project_05.jpg";
 import project_06 from "./../../img/projects/project_06.jpg";
 
-const Main = () => {
+import "./style.css"
+
+const Project = () => {
     return ( 
         <main className="section">
         <div className="container">
@@ -77,4 +79,4 @@ const Main = () => {
      );
 }
  
-export default Main;
+export default Project;

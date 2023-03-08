@@ -2,7 +2,7 @@ import "./styles/main.css";
 
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
-import Main from "./components/main/Main";
+import Project from "./components/project/Project";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
       <Header />
 
-      <Main />
+      <Project />
 
       <Footer />
 

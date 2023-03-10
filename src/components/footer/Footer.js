@@ -4,7 +4,6 @@ import twitter from "./../../img/icons/twitter.svg";
 import gitHub from "./../../img/icons/gitHub.svg";
 import linkedIn from "./../../img/icons/linkedIn.svg";
 
-import "./style.css"
 
 const Footer = () => {
   return (

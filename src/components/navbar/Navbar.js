@@ -1,38 +1,47 @@
-import sun from "./../../img/icons/sun.svg";
-import moon from "./../../img/icons/moon.svg";
-
+import { NavLink } from "react-router-dom";
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 
 const Navbar = () => {
+  const activeLink = "nav-list__link nav-list__link--active";
+  const normalLink = "nav-list__link";
+
   return (
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <a href="./index.html" className="logo">
+          <NavLink to="/" className="logo">
             <strong>Frilancer</strong> portfolio
-          </a>
+          </NavLink>
 
-          <button className="dark-mode-btn">
-            <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
-            <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-          </button>
+          <BtnDarkMode />
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <a
-                href="./index.html"
-                className="nav-list__link nav-list__link--active">
-                Projects
-              </a>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }>
+                Домой
+              </NavLink>
             </li>
             <li className="nav-list__item">
-              <a href="./skills.html" className="nav-list__link">
-                Skills
-              </a>
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }>
+                Проекты
+              </NavLink>
             </li>
             <li className="nav-list__item">
-              <a href="./contacts.html" className="nav-list__link">
-                Contacts
-              </a>
+              <NavLink
+                to="/contacts"
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }>
+                Контакты
+              </NavLink>
             </li>
           </ul>
         </div>

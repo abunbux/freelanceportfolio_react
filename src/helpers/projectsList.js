@@ -39,21 +39,18 @@ const projects = [
         skills: 'React, Node.js, MongoDB',
         img: project_04,
         imgBig: project_04_big,
-        gitHubLink: 'https://github.com/',
     },
     {
         title: 'Landing',
         skills: 'React, Node.js, MongoDB',
         img: project_05,
         imgBig: project_05_big,
-        gitHubLink: 'https://github.com/',
     },
     {
         title: 'Gaming community',
         skills: 'React, Node.js, MongoDB',
         img: project_06,
         imgBig: project_06_big,
-        gitHubLink: 'https://github.com/',
     }
 ];
 
